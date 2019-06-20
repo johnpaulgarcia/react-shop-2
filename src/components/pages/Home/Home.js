@@ -183,7 +183,7 @@ class Home extends Component {
                     </div>
                 }
                 <button class="changer" onClick={()=>this.changePage()}>
-                  {this.state.isPage1 ?  `Checkout (${this.state.cart.length})` :  'Shop Page'}
+                  {this.state.view ?  `Checkout (${this.state.cart.length})` :  'Shop Page'}
                 </button>
                {this.state.view && <Left>
                <div class="fitted">

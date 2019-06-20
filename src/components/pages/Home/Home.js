@@ -218,6 +218,9 @@ class Home extends Component {
                           );
                       })
                   }
+                  {
+                      this.state.cart.length===0 && <p>No Item Here, Start shopping now.</p>
+                  }
                   </List>
                   </div>
                   <div class="paynow" onClick={()=>{

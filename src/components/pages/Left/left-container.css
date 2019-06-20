@@ -1,0 +1,37 @@
+.left-container {
+  
+}
+
+.top {
+    height: 200px;
+
+}
+
+.bottom {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    color: white;
+    background: red;
+}
+
+.bottom:active {
+    opacity: 0.5;
+}
+
+.prod_image {
+    width: inherit;
+    height: 100px;
+}
+
+.prod_name {
+  
+    margin-left: 10px;
+    width: fit-content;
+    background: orangered;
+    color: white;
+    padding: 10px;
+}
+

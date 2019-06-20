@@ -1,0 +1,16 @@
+.list-item {
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    flex-shrink: 1;
+    width: 400px;
+    height: 300px;
+    margin: 3px;
+}
+
+
+.height {
+    height: 100px;
+}
+
